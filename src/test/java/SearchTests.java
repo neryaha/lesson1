@@ -14,5 +14,7 @@ public class SearchTests {
         $(byName("q")).setValue("Selenide").pressEnter();
 
         $("#search").shouldHave(text("selenide.org"));
+
+        //comment
     }
 }
